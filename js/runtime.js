@@ -1,6 +1,6 @@
 function show_runtime() {
     window.setTimeout("show_runtime()", 1000);
-    X = new Date("01/20/2021 21:00:00");
+    X = new Date("11/11/2023 11:11:11");
     Y = new Date();
     T = (Y.getTime() - X.getTime());
     M = 24 * 60 * 60 * 1000;
